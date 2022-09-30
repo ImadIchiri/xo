@@ -98,12 +98,16 @@ replay.addEventListener("click", () => {
 });
 
 function removeAllCasses() {
-  transparentLine.classList.remove("row-1");
-  transparentLine.classList.remove("row-2");
-  transparentLine.classList.remove("row-3");
-  transparentLine.classList.remove("column-1");
-  transparentLine.classList.remove("column-2");
-  transparentLine.classList.remove("column-3");
-  transparentLine.classList.remove("curved-1");
-  transparentLine.classList.remove("curved-2");
+   transparentLine.className = "";
+  
+  /*
+    transparentLine.classList.remove("row-1");
+    transparentLine.classList.remove("row-2");
+    transparentLine.classList.remove("row-3");
+    transparentLine.classList.remove("column-1");
+    transparentLine.classList.remove("column-2");
+    transparentLine.classList.remove("column-3");
+    transparentLine.classList.remove("curved-1");
+    transparentLine.classList.remove("curved-2");
+  */
 }
