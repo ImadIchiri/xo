@@ -170,7 +170,7 @@ function checkSquares(squar1, squar2, squar3) {
       squars[squar1].dataset.character === squars[squar2].dataset.character &&
       squars[squar2].dataset.character === squars[squar3].dataset.character
     ) {
-      console.log(`Winner ==> ${squar1} -- ${squar3}`);
+//       console.log(`Winner ==> ${squar1} -- ${squar3}`);
       return true;
     }
   }
